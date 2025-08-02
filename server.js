@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+import data from "./blogs.js";
 dotenv.config();
 
 const app = express();
@@ -13,9 +14,9 @@ app.get("/", (request, response) => {
 });
 
 app.get("/api/blogs", (request, response) => {
-  response.json()
-})
+	response.json(data);
+});
 
 app.listen(PORT, () => {
-  console.log(`Server is running on localhost:${PORT}`);
+	console.log(`Server is running on localhost:${PORT}`);
 });
