@@ -1,0 +1,142 @@
+[
+	{
+		"id": 1,
+		"title": "Understanding REST APIs",
+		"author": "Jane Doe",
+		"content": "REST APIs are a standard way to communicate between client and server.",
+		"date": "2024-06-01"
+	},
+	{
+		"id": 2,
+		"title": "Introduction to Node.js",
+		"author": "John Smith",
+		"content": "Node.js allows JavaScript to run on the server side.",
+		"date": "2024-06-02"
+	},
+	{
+		"id": 3,
+		"title": "Getting Started with Express",
+		"author": "Alice Johnson",
+		"content": "Express is a minimal and flexible Node.js web application framework.",
+		"date": "2024-06-03"
+	},
+	{
+		"id": 4,
+		"title": "Building CRUD Applications",
+		"author": "Bob Lee",
+		"content": "CRUD stands for Create, Read, Update, and Delete operations.",
+		"date": "2024-06-04"
+	},
+	{
+		"id": 5,
+		"title": "MongoDB Basics",
+		"author": "Carol White",
+		"content": "MongoDB is a NoSQL database that stores data in JSON-like documents.",
+		"date": "2024-06-05"
+	},
+	{
+		"id": 6,
+		"title": "Authentication in Web Apps",
+		"author": "David Kim",
+		"content": "Authentication verifies the identity of a user accessing the application.",
+		"date": "2024-06-06"
+	},
+	{
+		"id": 7,
+		"title": "JWT for Secure APIs",
+		"author": "Eva Green",
+		"content": "JWTs are used to securely transmit information between parties.",
+		"date": "2024-06-07"
+	},
+	{
+		"id": 8,
+		"title": "Deploying with Docker",
+		"author": "Frank Brown",
+		"content": "Docker containers simplify deployment and scaling of applications.",
+		"date": "2024-06-08"
+	},
+	{
+		"id": 9,
+		"title": "Testing with Jest",
+		"author": "Grace Lee",
+		"content": "Jest is a popular testing framework for JavaScript applications.",
+		"date": "2024-06-09"
+	},
+	{
+		"id": 10,
+		"title": "Async Programming in JS",
+		"author": "Henry Clark",
+		"content": "Async programming allows non-blocking operations in JavaScript.",
+		"date": "2024-06-10"
+	},
+	{
+		"id": 11,
+		"title": "Error Handling Best Practices",
+		"author": "Ivy Adams",
+		"content": "Proper error handling improves application reliability.",
+		"date": "2024-06-11"
+	},
+	{
+		"id": 12,
+		"title": "Using Mongoose with MongoDB",
+		"author": "Jack Turner",
+		"content": "Mongoose provides a schema-based solution for MongoDB.",
+		"date": "2024-06-12"
+	},
+	{
+		"id": 13,
+		"title": "API Rate Limiting",
+		"author": "Karen Young",
+		"content": "Rate limiting protects APIs from excessive requests.",
+		"date": "2024-06-13"
+	},
+	{
+		"id": 14,
+		"title": "Logging in Node.js",
+		"author": "Leo King",
+		"content": "Logging helps track application events and errors.",
+		"date": "2024-06-14"
+	},
+	{
+		"id": 15,
+		"title": "Environment Variables",
+		"author": "Mia Scott",
+		"content": "Environment variables store configuration outside the code.",
+		"date": "2024-06-15"
+	},
+	{
+		"id": 16,
+		"title": "Securing Express Apps",
+		"author": "Nina Brooks",
+		"content": "Security measures protect Express applications from threats.",
+		"date": "2024-06-16"
+	},
+	{
+		"id": 17,
+		"title": "CORS Explained",
+		"author": "Oscar Reed",
+		"content": "CORS controls resource sharing between different origins.",
+		"date": "2024-06-17"
+	},
+	{
+		"id": 18,
+		"title": "File Uploads in Node.js",
+		"author": "Paula Evans",
+		"content": "Handling file uploads is common in web applications.",
+		"date": "2024-06-18"
+	},
+	{
+		"id": 19,
+		"title": "Pagination Techniques",
+		"author": "Quinn Foster",
+		"content": "Pagination improves performance and user experience.",
+		"date": "2024-06-19"
+	},
+	{
+		"id": 20,
+		"title": "Building RESTful Services",
+		"author": "Ryan Hall",
+		"content": "RESTful services follow standard conventions for APIs.",
+		"date": "2024-06-20"
+	}
+]
