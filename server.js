@@ -4,6 +4,7 @@ import data from "./blogs.js";
 dotenv.config();
 
 const app = express();
+app.use(express.json());
 const PORT = process.env.PORT || 5000;
 
 app.get("/", (request, response) => {
@@ -15,6 +16,23 @@ app.get("/", (request, response) => {
 
 app.get("/api/blogs", (request, response) => {
 	response.json(data);
+});
+
+app.post("/api/blogs", (request, response) => {
+	const newBlog = request.body;
+
+	data.forEach((blog) => {
+		if (newBlog.id === blog.id) {
+			return response
+				.status(401)
+				.json({ message: "Blog post id already existed" });
+		}
+	});
+
+	const blogs = data.push(newBlog);
+	return response
+		.status(200)
+		.json({ message: "Blog post added successfully ", data: newBlog });
 });
 
 app.listen(PORT, () => {
