@@ -18,13 +18,23 @@ app.get("/api/blogs", (request, response) => {
 	response.json(data);
 });
 
+app.get("/api/blogs/:id", (request, response) => {
+	const { id } = request.params;
+
+	if (!id) return response.status(400).json({ message: "ID now found." });
+
+	const blog = data.find((blog) => blog.id === Number(id));
+	if (!blog) return response.status(404).json({ message: "Blog not found!" });
+	return response.status(201).json(blog);
+});
+
 app.post("/api/blogs", (request, response) => {
 	const newBlog = request.body;
 
 	data.forEach((blog) => {
 		if (newBlog.id === blog.id) {
 			return response
-				.status(401)
+				.status(400)
 				.json({ message: "Blog post id already existed" });
 		}
 	});
